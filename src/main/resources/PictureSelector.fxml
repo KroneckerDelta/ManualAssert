@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pictureViewerPanel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" snapToPixel="true" xmlns:fx="http://javafx.com/fxml" fx:controller="de.mic.picturevaluation.view.PictureValuationViewController">
+  <children>
+    <Button fx:id="acceptButton" mnemonicParsing="false" onMouseReleased="#acceptButtonOnMouseReleased" prefHeight="50.0" prefWidth="112.0" text="Accept" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="14.0" />
+    <Button id="not" fx:id="notAcceptedButton" mnemonicParsing="false" onMouseReleased="#notAcceptButtonOnMouseReleased" prefHeight="50.0" prefWidth="100.0" text="Not accepted" AnchorPane.bottomAnchor="17.0" AnchorPane.rightAnchor="0.0" />
+    <TextArea fx:id="resultTextId" prefHeight="67.0" prefWidth="201.0" promptText="Reason why not accepted" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="107.0" />
+    <ImageView fx:id="imageViewId" fitHeight="428.25" fitWidth="571.0" layoutX="0.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="68.5" />
+  </children>
+</AnchorPane>
