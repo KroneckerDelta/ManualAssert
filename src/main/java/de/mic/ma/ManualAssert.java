@@ -8,7 +8,7 @@ import de.mic.ma.snapshot.NavigationOrder;
 import de.mic.ma.snapshot.Snapshot;
 import de.mic.picturevaluation.view.PictureValuationView;
 
-public class ManuellAssert {
+public class ManualAssert {
 
 	/**
 	 * Evaluate one picture.

@@ -8,12 +8,12 @@ import de.mic.ma.snapshot.NavigationOrder;
 import de.mic.ma.snapshot.NavigationsTargets;
 import de.mic.ma.snapshot.Startpage;
 
-public class ManuellAssertTest {
+public class ManualAssertTest {
 
 	@Test
 	public void testWithImage() throws Exception {
 		Image image = new Image("/Screenshot2.PNG");
-		new ManuellAssert().assertTrue(image);
+		new ManualAssert().assertTrue(image);
 	}
 
 	@Test
@@ -25,6 +25,6 @@ public class ManuellAssertTest {
 				"navigationMenuForm:navPnlSrs:0:tree:n-0:navNodeLink",
 				"iceform:icepnltabset:0:Text");
 		NavigationOrder navOrder = new NavigationOrder(startpage, navTargets);
-		new ManuellAssert().assertTrue(navOrder);
+		new ManualAssert().assertTrue(navOrder);
 	}
 }
