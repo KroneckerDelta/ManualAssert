@@ -1,12 +1,12 @@
-ManuellAssert
+ManualAssert
 =============
 
-ManuellAssert allows to write tests with assertions performed by a human. This is usefull for example if you want to test the layout of a webpage. It is hard to encode the properties of a 'nice' layout in a program, but often easy for a human to check if a layout is 'nice'. ManuellAssert will simply present the artefact to check to a human user and allows him or her to decide if it is ok or not.
+ManualAssert allows to write tests with assertions performed by a human. This is usefull for example if you want to test the layout of a webpage. It is hard to encode the properties of a 'nice' layout in a program, but often easy for a human to check if a layout is 'nice'. ManuellAssert will simply present the artefact to check to a human user and allows him or her to decide if it is ok or not.
 
 Getting Started
 -------------
 
-Have a look at: [de.mic.ma.ManuellAssertTest.java](/src/test/java/de/mic/ma/ManuellAssertTest.java)
+Have a look at: [de.mic.ma.ManualAssertTest.java](/src/test/java/de/mic/ma/ManualAssertTest.java)
 
 There a two versions.
 
