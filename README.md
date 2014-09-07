@@ -6,7 +6,7 @@ ManuellAssert allows to write tests with assertions performed by a human. This i
 Getting Started
 -------------
 
-Have a look at: [de.mic.ma.ManuellAssertTest.java](/tree/master/src/test/java/de/mic/ma/ManuellAssertTest.java)
+Have a look at: [de.mic.ma.ManuellAssertTest.java](/src/test/java/de/mic/ma/ManuellAssertTest.java)
 
 There a two versions.
 
